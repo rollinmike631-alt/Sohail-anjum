@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qadri Foods | خالص اور معیاری فوڈ پراڈکٹس</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f8f9fa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#0b7a3e,#0d9c4f);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+opacity:0.95;
+}
+
+.hero-btn{
+display:inline-block;
+margin-top:20px;
+padding:14px 30px;
+background:white;
+color:#0b7a3e;
+text-decoration:none;
+font-weight:bold;
+border-radius:8px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:30px;
+color:#0b7a3e;
+font-size:2rem;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card h3{
+color:#0b7a3e;
+margin-bottom:10px;
+}
+
+.price{
+font-weight:bold;
+color:#0b7a3e;
+margin-top:10px;
+}
+
+.about{
+background:white;
+padding:40px;
+border-radius:15px;
+margin-top:50px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.contact{
+margin-top:50px;
+background:linear-gradient(135deg,#0b7a3e,#0d9c4f);
+color:white;
+padding:40px;
+border-radius:15px;
+text-align:center;
+}
+
+.btn{
+display:inline-block;
+padding:15px 25px;
+margin:10px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+color:white;
+}
+
+.whatsapp{
+background:#25D366;
+}
+
+.call{
+background:#007bff;
+}
+
+footer{
+margin-top:40px;
+background:#0b7a3e;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:2.2rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🏪 Qadri Foods</h1>
+<p>خالص، تازہ اور معیاری فوڈ پراڈکٹس</p>
+<a href="#products" class="hero-btn">پروڈکٹس دیکھیں</a>
+</header>
+
+<div class="container">
+
+<h2 class="section-title" id="products">ہمارے پروڈکٹس</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1596591606875-6a4f6f0f91b1?w=800" alt="آلو بخارا">
+<div class="card-content">
+<h3>🥭 آلو بخارا</h3>
+<p>تازہ اور اعلیٰ معیار کا آلو بخارا</p>
+<div class="price">250 گرام = 350 روپے</div>
+<div class="price">500 گرام = 700 روپے</div>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800" alt="اچار">
+<div class="card-content">
+<h3>🫙 اچار</h3>
+<p>خوشبودار اور لذیذ گھریلو اچار</p>
+<div class="price">500 گرام = 1000 روپے</div>
+<div class="price">1000 گرام = 2000 روپے</div>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1615486363973-f79f2d8c3a4f?w=800" alt="املی">
+<div class="card-content">
+<h3>🌰 املی</h3>
+<p>تازہ، صحت بخش اور اعلیٰ کوالٹی کی املی</p>
+<div class="price">250 گرام = 350 روپے</div>
+</div>
+</div>
+
+</div>
+
+<div class="about">
+<h2>ہمارے بارے میں</h2>
+<p>
+Qadri Foods کا مقصد اپنے صارفین کو خالص، معیاری اور تازہ فوڈ پراڈکٹس فراہم کرنا ہے۔
+ہم بہترین معیار اور مناسب قیمت پر مصنوعات مہیا کرتے ہیں۔
+</p>
+</div>
+
+<div class="contact">
+<h2>📞 رابطہ کریں</h2>
+<p><strong>فون:</strong> +92 314 3406210</p>
+<p><strong>پتہ:</strong> محلہ سمن آباد، جھنگ صدر</p>
+
+<a class="btn whatsapp" href="https://wa.me/923143406210">
+💬 WhatsApp پر آرڈر کریں
+</a>
+
+<a class="btn call" href="tel:+923143406210">
+📱 فوری کال کریں
+</a>
+</div>
+
+</div>
+
+<footer>
+© 2026 Qadri Foods | تمام حقوق محفوظ ہیں
+</footer>
+
+</body>
+</html>
